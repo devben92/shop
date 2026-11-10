@@ -1,0 +1,71 @@
+# ==========================================
+# 📦 ENVIRONNEMENTS VIRTUELS & DEPENDANCES (Python / uv)
+# ==========================================
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# ==========================================
+# 🪵 CONFIGURATIONS & COMPILATION FRONTEND (Bun / Node)
+# ==========================================
+node_modules/
+bun.lockb
+
+# Output / Compilations
+out/
+dist/
+*.tgz
+/myshop/static/dist/
+
+# Code coverage
+coverage/
+*.lcov
+
+# Logs
+logs/
+*.log
+report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
+
+# Caches frontend
+.eslintcache
+.cache/
+*.tsbuildinfo
+
+# ==========================================
+# 🗄️ BASES DE DONNÉES LOCALES & MÉDIAS DJANGO
+# ==========================================
+# Base SQLite locale par défaut de Django/Wagtail
+*.sqlite3
+*.sqlite3-journal
+
+# Fichiers médias téléversés par les utilisateurs (ne jamais commit en prod)
+/myshop/media/
+/media/
+
+# ==========================================
+# 🔑 SÉCURITÉ & VARIABLES D'ENVIRONNEMENT
+# ==========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ==========================================
+# 💻 ÉDITEURS & SYSTÈME D'EXPLOITATION (macOS)
+# ==========================================
+# Finder & macOS config
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IntelliJ based IDEs (PyCharm, WebStorm, etc.)
+.idea/
+
+# VS Code & Cursor
+.vscode/
+!.vscode/extensions.json

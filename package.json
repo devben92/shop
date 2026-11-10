@@ -1,0 +1,21 @@
+{
+  "name": "shop",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "typecheck": "bun check"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.5",
+    "@types/bun": "latest",
+    "tailwindcss": "^4.3.5"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  },
+  "dependencies": {
+    "alpinejs": "^3.17.5",
+    "htmx.org": "4"
+  }
+}
